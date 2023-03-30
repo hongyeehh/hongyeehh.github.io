@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Ye Hong"
 title_separator          : "-"
 name                     : &name "Ye Hong"
-description              : &description "Doctoral candidate at MIE Lab, ETH Zurich"
+description              : &description "Doctoral candidate @ ETH Zurich"
 url                      : https://hong2223.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"https://hong2223.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hong2223/hong2223.github.io"
