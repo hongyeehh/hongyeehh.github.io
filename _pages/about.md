@@ -13,11 +13,14 @@ Welcome!
 
 I am Ye Hong, currently pursuing a doctoral degree at ETH Zurich, supervised by [Martin Raubal](https://www.raubal.ethz.ch/) and [Konrad Schindler](https://igp.ethz.ch/personen/person-detail.html?persid=143986). I work in the [Mobility Information Engineering (MIE) Lab](http://mie-lab.ethz.ch/) at the [Chair of Geoinformation Engineering](https://gis.ethz.ch/en/), ETH Zurich. Before starting the doctoral journey, I obtained my master's degree in Geomatic from ETH Zurich and a bachelor's degree in GIS and RS from Sun Yat-sen University, China. 
 
+I am interested in human mobility, urban computing, and network science, and I am particularly fascinated by applying computational methods (e.g., ML, DL) to tackle real-world problems. Currently, I am working on predicting and modelling individual human mobility, intending to promote personalized and sustainable travel options for a smooth transition towards a sustainable transportation system.
+
+[Download CV](/files/cv-yehong.pdf)
 
 News
 ======
-* Our paper [Trackintel: An open-source Python library for human mobility analysis](https://doi.org/10.1016/j.compenvurbsys.2023.101938) was published in *Computers, Environment and Urban Systems*. Check out the Python trackintel library for human mobility analysis on [GitHub](https://github.com/mie-lab/trackintel)!
-* Our study [Conserved quantities in human mobility](https://doi.org/10.1016/j.trc.2022.103979) was published in *Transportation Research Part C*. We showed that individuals implicitly balance new behaviour exploration and existing option exploitation over time, resulting in a conserved number of basic travel mode and activity location combinations. 
-* We presented our study [How do you go where? improving next location prediction by learning travel mode information using transformers](https://doi.org/10.1145/3557915.3560996) at SIGSPATIAL '22 in Seattle, USA. Our proposed transformer decoder-based model utilizing location, travel mode and time-related information for next location prediction achieved state-of-the-art performance on large scale tracking datasets.
+* Our paper [Trackintel: An open-source Python library for human mobility analysis](https://doi.org/10.1016/j.compenvurbsys.2023.101938) was published in *Computers, Environment and Urban Systems*. 
+* Our study [Conserved quantities in human mobility](https://doi.org/10.1016/j.trc.2022.103979) was published in *Transportation Research Part C*. 
+* We presented our study [How do you go where? improving next location prediction by learning travel mode information using transformers](https://doi.org/10.1145/3557915.3560996) at SIGSPATIAL '22 in Seattle, USA. 
 
 [all news](/news)
