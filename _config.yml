@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Ye Hong"
-  avatar           : "/images/profile.png"
+  avatar           : "profile.png"
   bio              : "Doctoral candidate at MIE Lab, ETH Zurich"
   location         : "Zurich, Switzerland"
   employer         :
