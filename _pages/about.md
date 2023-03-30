@@ -20,7 +20,7 @@ I am interested in human mobility, urban computing, and network science, and I a
 News
 ======
 * Our paper [Trackintel: An open-source Python library for human mobility analysis](https://doi.org/10.1016/j.compenvurbsys.2023.101938) was published in *Computers, Environment and Urban Systems*. 
-* Our study [Conserved quantities in human mobility](https://doi.org/10.1016/j.trc.2022.103979) was published in *Transportation Research Part C*. 
+* Our study [Conserved quantities in human mobility: from locations to trips](https://doi.org/10.1016/j.trc.2022.103979) was published in *Transportation Research Part C*. 
 * We presented our study [How do you go where? improving next location prediction by learning travel mode information using transformers](https://doi.org/10.1145/3557915.3560996) at SIGSPATIAL '22 in Seattle, USA. 
 
 [all news](/news)
