@@ -14,7 +14,7 @@ description              : &description "Doctoral candidate at MIE Lab, ETH Zuri
 url                      : https://hong2223.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"https://hong2223.github.io
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : "hong2223/hong2223.github.io"
-teaser                   : "profile.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "profile.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 # future                   : true
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Ye Hong"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "Doctoral candidate at MIE Lab, ETH Zurich"
   location         : "Zurich, Switzerland"
   employer         :
