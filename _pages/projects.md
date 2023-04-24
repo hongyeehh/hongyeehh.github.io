@@ -15,6 +15,9 @@ We aim to explore approaches for hybrid modelling, referring to integrating mech
 The past few years have seen rapid development in transportation applications using DL. However, such networks are often challenging to interpret and lack robustness. Through the collaboration with the [Swiss Data Science Center (SDSC)](https://datascience.ch/), we aim to bring together the knowledge of GIS and DL, advancing our understanding of how interpretable and robust machine learning methods can be tailored to mobility analysis with the support of causal inference. The outcome of this research will help develop more interpretable and reliable DL models for tackling transport-related issues. 
 
 ## Next location prediction
+Next location prediction refers to the prediction of the immediate next location an individual will visit given their historical mobility. The problem has found a wide range of applications in recommendation systems, traffic optimization and sustainable transportation systems. We focus on the problem for GNSS-based datasets, where continuous traces of individuals are available. We introduced a set of preprocessing guidelines and a new DL model (multi-head self-attention), discussed the optimum approaches for integrating movement related-context, and compared the different design choices that impact the problem definition and prediction accuracy.
+
+Relevant studies are presented at [SIGSPATIAL '22](https://doi.org/10.1145/3557915.3560996) and a follow up study is available on [arXiv](https://arxiv.org/abs/2212.01953).
 
 ## Long-term mobility behaviour
 
