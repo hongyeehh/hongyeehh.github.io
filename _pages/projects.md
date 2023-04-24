@@ -7,11 +7,12 @@ author_profile: true
 During my journey to my doctorate, I have been involved in various research projects. Here you can find more details on past and ongoing projects.
 
 ## Generating synthesised mobility traces
+A central topic in individual human mobility is the quantification of location visits and mobility modelling for synthesized mobility generation (e.g., check the [container model](https://doi.org/10.1038/s41586-020-2909-1)) or trip/activity generation (e.g., check the [eqasim framework](https://doi.org/10.1016/j.trc.2021.103291)) that are essential for downstream applications such as travel demand modelling and epidemic control. 
 
+We aim to explore approaches for hybrid modelling, referring to integrating mechanistic and DL models for generating synthesized location visitation sequences. While mechanistic approaches are in principle directly interpretable and generalize well in unseen situations, DL models are highly flexible in approximating the non-linear relationships in data. Combining both methods could increase the performance and generalization ability of the mobility generation model. 
 
 ## Interpretable and Robust ML
 The past few years have seen rapid development in transportation applications using DL. However, such networks are often challenging to interpret and lack robustness. Through the collaboration with the [Swiss Data Science Center (SDSC)](https://datascience.ch/), we aim to bring together the knowledge of GIS and DL, advancing our understanding of how interpretable and robust machine learning methods can be tailored to mobility analysis with the support of causal inference. The outcome of this research will help develop more interpretable and reliable DL models for tackling transport-related issues. 
-
 
 ## Next location prediction
 
