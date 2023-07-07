@@ -32,6 +32,7 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 # Conference Proceedings
 
+* Wiedemann, N., **Hong, Y.**, and Raubal, M. (2023). Predicting visit frequencies to new places. GIScience 2023. Accepted. 
 * **Hong, Y.**, Martin, H., and Raubal, M. (2022). [How do you go where? improving next location prediction by learning travel mode information using transformers](https://doi.org/10.1145/3557915.3560996). In *Proceedings of the 30th International Conference on Advances in Geographic Information Systems (SIGSPATIAL '22)*, (pp. 1-10). Seattle, USA. Association for Computing Machinery. 
 * Martin, H., Wiedemann, N., Suel, E., **Hong, Y.**, and Xin, Y. (2022). [Influence of tracking duration on the privacy of individual mobility graphs](https://doi.org/10.3929/ethz-b-000572753). In *Proceedings of the 17th International Conference on Location-Based Services*, (pp.78--88). Munich, Germany. Technical University of Munich.
 * **Hong, Y.**, Xin, Y., Martin, H., Bucher, D., and Raubal, M. (2021). [A clustering-based framework for individual travel behaviour change detection](https://doi.org/10.4230/LIPIcs.GIScience.2021.II.4). In *Proceedings of the 11th International Conference on Geographic Information Science (GIScience 2021) - Part II*, (pp.4:1--4:15). Online. Schloss Dagstuhl -- Leibniz-Zentrum für Informatik. 
@@ -42,5 +43,6 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 * **Hong, Y.**, Zhang, Y., Schindler, K., and Raubal, M. (2023). [Context-aware multi-head self-attentional neural network model for next location prediction](https://arxiv.org/abs/2212.01953). *Under review*.
 * Li, J., Xin, Y., **Hong, Y.**, and Raubal, M. (2023). [Interpreting Deep Learning Models for Traffic Forecast: A Case Study of UNet](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4370154). *Under review*.
 * Wiedemann, N., Martin, H., Suel, E., **Hong, Y.**, and Xin, Y. (2023). Influence of tracking duration on the privacy of individual mobility graphs. *Under review*.
-* **Hong, Y.**, Stüdeli, E., and Raubal, M. (2023). Evaluating geospatial context information for travel mode detection. *In preparation*.
+* **Hong, Y.**, Stüdeli, E., and Raubal, M. (2023). [Evaluating geospatial context information for travel mode detection](https://arxiv.org/abs/2305.19428). *Under review*.
+* Timans, A., Wiedemann, N., Kumar, N., **Hong, Y.**, and Raubal, M. Uncertainty Quantification for Image-based Traffic Prediction across Cities. *In preperation*.
 
