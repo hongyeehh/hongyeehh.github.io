@@ -19,6 +19,8 @@ I am interested in human mobility, urban computing, and network science, and I a
 
 News
 ======
+* [Jul. 2023] Our paper [Influence of tracking duration on the privacy of individual mobility graphs](https://doi.org/10.1080/17489725.2023.2239190) was published in *Journal of Location Based Services*. 
+* [Jul. 2023] Our paper [Predicting mobile users' next location using the semantically enriched geo-embedding model and the multilayer attention mechanism](https://doi.org/10.1016/j.compenvurbsys.2023.102009) was published in *Computers, Environment and Urban Systems*. 
 * [Jul. 2023] We have a new short paper [Predicting visit frequencies to new places]() accepted at GIScience 2023.
 * [Jan. 2023] Our paper [Trackintel: An open-source Python library for human mobility analysis](https://doi.org/10.1016/j.compenvurbsys.2023.101938) was published in *Computers, Environment and Urban Systems*. 
 * [Dec. 2022] Our study [Conserved quantities in human mobility: from locations to trips](https://doi.org/10.1016/j.trc.2022.103979) was published in *Transportation Research Part C*. 

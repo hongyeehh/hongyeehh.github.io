@@ -15,6 +15,8 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 # Journal Articles
 * Martin, H., **Hong, Y.**, Wiedemann, N., Bucher, D., and Raubal, M. [Trackintel: An open-source Python library for human mobility analysis](https://doi.org/10.1016/j.compenvurbsys.2023.101938). *Computers, Environment and Urban Systems*, 101, 101938.
 * **Hong, Y.**, Martin, H., Xin, Y., Bucher, D., Reck, D. J., Axhausen, K. W., and Raubal, M. (2023). [Conserved quantities in human mobility: from locations to trips](https://doi.org/10.1016/j.trc.2022.103979).  *Transportation Research Part C: Emerging Technologies*, 146, 103979. 
+* Yao, Y., Guo, Z., Dou, C., Jia, N., **Hong, Y.**, Guan, Q., and Luo, P. (2023.) [Predicting mobile users' next location using the semantically enriched geo-embedding model and the multilayer attention mechanism](https://doi.org/10.1016/j.compenvurbsys.2023.102009). *Computers, Environment and Urban Systems*, 104, 102009. 
+* Wiedemann, N., Martin, H., Suel, E., **Hong, Y.**, and Xin, Y. [Influence of tracking duration on the privacy of individual mobility graphs](https://doi.org/10.1080/17489725.2023.2239190). *Journal of Location Based Services* .
 * Yao, Y., Zhou, J., Sun, Z., Guan, Q., Guo, Z., Xu, Y., Zhang, J., **Hong, Y.**, Cai, Y., and Wang, R. (2023). [Estimating China's poverty reduction efficiency by integrating multi-source geospatial data and deep learning techniques](https://doi.org/10.1080/10095020.2023.2165975). *Geo-Spatial Information Science*, 1-17. 
 * Guan, Q., Yao, Y., Ma, T., **Hong, Y.**, Bie, Y., and Lyu, J. (2022). [Under the Dome: A 3D Urban Texture Model and Its Relationship with Urban Land Surface Temperature](https://doi.org/10.1080/24694452.2021.1972790). *Annals of the American Association of Geographers*, 112(5), 1369-1389. 
 * Yao, Y., Wang, J., **Hong, Y.**, Qian, C., Guan, Q., Liang, X., Dai, L. and Zhang, J. (2021). [Discovering the homogeneous geographic domain of human perceptions from street view images](https://doi.org/10.1016/j.landurbplan.2021.104125). *Landscape and Urban Planning*, 212, 104125.
@@ -42,7 +44,6 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 * **Hong, Y.**, Zhang, Y., Schindler, K., and Raubal, M. (2023). [Context-aware multi-head self-attentional neural network model for next location prediction](https://arxiv.org/abs/2212.01953). *Under review*.
 * Li, J., Xin, Y., **Hong, Y.**, and Raubal, M. (2023). [Interpreting Deep Learning Models for Traffic Forecast: A Case Study of UNet](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4370154). *Under review*.
-* Wiedemann, N., Martin, H., Suel, E., **Hong, Y.**, and Xin, Y. (2023). Influence of tracking duration on the privacy of individual mobility graphs. *Under review*.
 * **Hong, Y.**, Stüdeli, E., and Raubal, M. (2023). [Evaluating geospatial context information for travel mode detection](https://arxiv.org/abs/2305.19428). *Under review*.
-* Timans, A., Wiedemann, N., Kumar, N., **Hong, Y.**, and Raubal, M. Uncertainty Quantification for Image-based Traffic Prediction across Cities. *In preperation*.
+* Timans, A., Wiedemann, N., Kumar, N., **Hong, Y.**, and Raubal, M. Uncertainty Quantification for Image-based Traffic Prediction across Cities. *Under review*.
 
