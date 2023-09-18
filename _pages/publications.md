@@ -43,8 +43,7 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 # Preprints and Working Papers
 
-* **Hong, Y.**, Zhang, Y., Schindler, K., and Raubal, M. (2023). [Context-aware multi-head self-attentional neural network model for next location prediction](https://arxiv.org/abs/2212.01953). *Under review*.
 * Li, J., Xin, Y., **Hong, Y.**, and Raubal, M. (2023). [Interpreting Deep Learning Models for Traffic Forecast: A Case Study of UNet](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4370154). *Under review*.
 * **Hong, Y.**, Stüdeli, E., and Raubal, M. (2023). [Evaluating geospatial context information for travel mode detection](https://arxiv.org/abs/2305.19428). *Under review*.
-* Timans, A., Wiedemann, N., Kumar, N., **Hong, Y.**, and Raubal, M. Uncertainty Quantification for Image-based Traffic Prediction across Cities. *Under review*.
+* Timans, A., Wiedemann, N., Kumar, N., **Hong, Y.**, and Raubal, M. [Uncertainty Quantification for Image-based Traffic Prediction across Cities](https://doi.org/10.48550/arXiv.2308.06129). *Under review*.
 
