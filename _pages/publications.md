@@ -13,6 +13,8 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 {% endfor %} -->
 
 # Journal Articles
+
+* **Hong, Y.**, St&uuml;deli, E., and Raubal, M. (2023). [Evaluating geospatial context information for travel mode detection](https://doi.org/10.1016/j.jtrangeo.2023.103736). *Journal of Transport Geography*, 113, 103736. 
 * **Hong, Y.**, Zhang, Y., Schindler, K., and Raubal, M. (2023). [Context-aware multi-head self-attentional neural network model for next location prediction](https://doi.org/10.1016/j.trc.2023.104315). *Transportation Research Part C: Emerging Technologies*, 156, 104315. 
 * Martin, H., **Hong, Y.**, Wiedemann, N., Bucher, D., and Raubal, M. (2023). [Trackintel: An open-source Python library for human mobility analysis](https://doi.org/10.1016/j.compenvurbsys.2023.101938). *Computers, Environment and Urban Systems*, 101, 101938.
 * **Hong, Y.**, Martin, H., Xin, Y., Bucher, D., Reck, D. J., Axhausen, K. W., and Raubal, M. (2023). [Conserved quantities in human mobility: from locations to trips](https://doi.org/10.1016/j.trc.2022.103979). *Transportation Research Part C: Emerging Technologies*, 146, 103979. 
@@ -35,7 +37,7 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 # Conference Proceedings
 
-* Wiedemann, N., **Hong, Y.**, and Raubal, M. (2023). Predicting visit frequencies to new places. GIScience 2023. Accepted. 
+* Wiedemann, N., **Hong, Y.**, and Raubal, M. (2023). [Predicting visit frequencies to new places](https://doi.org/10.4230/LIPIcs.GIScience.2023.84). In *Proceedings of the 12th International Conference on Geographic Information Science (GIScience '23)*, (pp.84:1--84:6). Leeds, UK. Schloss Dagstuhl -- Leibniz-Zentrum f&uuml;r Informatik.
 * **Hong, Y.**, Martin, H., and Raubal, M. (2022). [How do you go where? improving next location prediction by learning travel mode information using transformers](https://doi.org/10.1145/3557915.3560996). In *Proceedings of the 30th International Conference on Advances in Geographic Information Systems (SIGSPATIAL '22)*, (pp. 1-10). Seattle, USA. Association for Computing Machinery. 
 * Martin, H., Wiedemann, N., Suel, E., **Hong, Y.**, and Xin, Y. (2022). [Influence of tracking duration on the privacy of individual mobility graphs](https://doi.org/10.3929/ethz-b-000572753). In *Proceedings of the 17th International Conference on Location-Based Services*, (pp.78--88). Munich, Germany. Technical University of Munich.
 * **Hong, Y.**, Xin, Y., Martin, H., Bucher, D., and Raubal, M. (2021). [A clustering-based framework for individual travel behaviour change detection](https://doi.org/10.4230/LIPIcs.GIScience.2021.II.4). In *Proceedings of the 11th International Conference on Geographic Information Science (GIScience 2021) - Part II*, (pp.4:1--4:15). Online. Schloss Dagstuhl -- Leibniz-Zentrum für Informatik. 
@@ -44,6 +46,7 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 # Preprints and Working Papers
 
 * Li, J., Xin, Y., **Hong, Y.**, and Raubal, M. (2023). [Interpreting Deep Learning Models for Traffic Forecast: A Case Study of UNet](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4370154). *Under review*.
-* **Hong, Y.**, Stüdeli, E., and Raubal, M. (2023). [Evaluating geospatial context information for travel mode detection](https://arxiv.org/abs/2305.19428). *Under review*.
 * Timans, A., Wiedemann, N., Kumar, N., **Hong, Y.**, and Raubal, M. [Uncertainty Quantification for Image-based Traffic Prediction across Cities](https://doi.org/10.48550/arXiv.2308.06129). *Under review*.
-
+* Dirmeier, S., **Hong, Y.**, Xin, Y., and Perez-Cruz, F. [Uncertainty quantification and out-of-distribution detection using surjective normalizing flows](https://doi.org/10.48550/arXiv.2311.00377). *Under review*.
+* Dirmeier, S., **Hong, Y.**, and Perez-Cruz, F. Synthetic location trajectory generation using categorical diffusion models. *Under review*.
+* **Hong, Y.**, Xin, Y., Dirmeier, S., Perez-Cruz, F., and Raubal, M. Revealing behavioral impact on mobility prediction networks through causal intervention. *In preparation*.
