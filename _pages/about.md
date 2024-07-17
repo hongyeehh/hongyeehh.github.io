@@ -19,7 +19,7 @@ I have a keen interest in human mobility, urban computing, and network science, 
 
 News
 ======
-* [May. 2024] I gave a talk at the Swiss Transport Research Conference (STRC) titled **Towards realistic individual activity location demand synthesis using deep generative networks**. Reach out if you are interested in the topic and want to learn more!
+* [May. 2024] I gave a talk at the Swiss Transport Research Conference (STRC) titled **Towards realistic individual activity location demand synthesis using deep generative networks**, with corresponding publication avilabel [here](https://doi.org/10.3929/ethz-b-000683550). Reach out if you are interested in the topic and want to learn more!
 * [Apr. 2024] Our paper [Is a 15-Minute City Within Reach? Measuring Multimodal Accessibility and Carbon Footprint in 12 Major American Cities](https://doi.org/10.1016/j.landusepol.2024.107180) was published in *Land Use Policy*. 
 * [Nov. 2023] Our study on travel mode detection - [Evaluating geospatial context information for travel mode detection](https://doi.org/10.1016/j.jtrangeo.2023.103736) was published in *Journal of Transport Geography*. 
 * [Aug. 2023] Our study [Context-aware multi-head self-attentional neural network model for next location prediction](https://doi.org/10.1016/j.trc.2023.104315) was published in *Transportation Research Part C*. 
