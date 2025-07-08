@@ -19,7 +19,7 @@ I have a keen interest in human mobility, urban computing, and network science, 
 
 News
 ======
-* [May 2025] I gave a talk at the Swiss Transport Research Conference (STRC) titled **Causal Inference for interpretable and robust deep learning in mobility analysis**, with corresponding publication avilabel [here](https://doi.org/10.3929/ethz-b-000744423).
+* [May 2025] I gave a talk at the Swiss Transport Research Conference (STRC) titled **Causal Inference for interpretable and robust deep learning in mobility analysis**, with corresponding publication available [here](https://doi.org/10.3929/ethz-b-000744423).
 * [May 2025] Our paper [A causal intervention framework for synthesizing mobility data and evaluating predictive neural networks](https://doi.org/10.1016/j.trip.2025.101398) was published in *Transportation Research Interdisciplinary Perspectives*. 
 * [May 2024] I gave a talk at the Swiss Transport Research Conference (STRC) titled **Towards realistic individual activity location demand synthesis using deep generative networks**, with corresponding publication available [here](https://doi.org/10.3929/ethz-b-000683550). Reach out if you are interested in the topic and want to learn more!
 * [Apr. 2024] Our paper [Is a 15-Minute City Within Reach? Measuring Multimodal Accessibility and Carbon Footprint in 12 Major American Cities](https://doi.org/10.1016/j.landusepol.2024.107180) was published in *Land Use Policy*. 
