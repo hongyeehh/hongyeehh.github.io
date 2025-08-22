@@ -32,12 +32,22 @@
 }
 
 .masthead__menu {
+  display: flex;
+  align-items: center;
+
+  nav {
+    flex: 1;
+  }
 
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
+  }
+
+  .theme-toggle {
+    margin-left: auto;
   }
 }
 
