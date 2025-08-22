@@ -1,0 +1,34 @@
+.publication {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.publication__image {
+  margin-right: 1rem;
+  flex: 0 0 120px;
+}
+
+.publication__image img {
+  width: 120px;
+  height: auto;
+}
+
+.publication__title {
+  margin: 0;
+  font-weight: 600;
+}
+
+.publication__authors,
+.publication__description,
+.publication__links {
+  margin: 0.25rem 0;
+}
+
+.publication__description {
+  font-style: italic;
+}
+
+.publication__links a {
+  color: #2a7ae2;
+}
