@@ -13,8 +13,9 @@
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
+          <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+        <li class="masthead__menu-item theme-toggle"><button id="theme-toggle" class="btn" aria-label="Toggle dark mode">🌓</button></li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
