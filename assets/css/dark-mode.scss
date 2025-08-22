@@ -54,24 +54,6 @@
   border-bottom: 1px solid #444444;
 }
 
-[data-theme="dark"] .sidebar {
-  background-color: #222222;
-  color: #E6E6E6;
-}
-
-[data-theme="dark"] .sidebar a {
-  color: #8ab4f8;
-}
-
-[data-theme="dark"] .sidebar .author__urls {
-  background-color: #1A1A1A;
-  border-color: #444444;
-}
-
-[data-theme="dark"] .sidebar .author__urls:before {
-  border-color: #444444 transparent;
-}
-
 [data-theme="dark"] table {
   background-color: #1A1A1A;
   color: #E6E6E6;
