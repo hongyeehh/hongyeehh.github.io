@@ -3,7 +3,7 @@
 
 // Dark theme overrides
 [data-theme="dark"] {
-  background-color: #4D4D4D;
+  background-color: #2F2F2F;
   color: #E6E6E6;
 }
 
@@ -16,8 +16,8 @@
 }
 
 [data-theme="dark"] .masthead {
-  background-color: #4D4D4D;
-  border-bottom: 1px solid #333333;
+  background-color: #444444;
+  border-bottom: 1px solid #000000;
   color: #E6E6E6;
 }
 
@@ -30,7 +30,12 @@
 }
 
 [data-theme="dark"] .page__footer {
-  background-color: #1e1e1e;
+  border-top: 1px solid #000000;
+  background-color: #444444;
+}
+
+[data-theme="dark"] .social-icons .fa {
+  color: #E6E6E6;
 }
 
 /* Ensure masthead items stay on one line with toggle on the right */
