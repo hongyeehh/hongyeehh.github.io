@@ -15,6 +15,20 @@
   background-color: #1e1e1e;
 }
 
+/* Ensure masthead items stay on one line with toggle on the right */
+.masthead__menu {
+  display: flex;
+  align-items: center;
+}
+
+.masthead__menu nav {
+  flex-grow: 1;
+}
+
+#theme-toggle {
+  margin-left: auto;
+}
+
 #theme-toggle .icon-moon {
   display: none;
 }
