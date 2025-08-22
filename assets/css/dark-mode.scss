@@ -42,6 +42,51 @@
   color: #E6E6E6;
 }
 
+[data-theme="dark"] .page__content {
+  color: #E6E6E6;
+}
+
+[data-theme="dark"] .page__content a {
+  color: #8ab4f8;
+}
+
+[data-theme="dark"] .page__content h2 {
+  border-bottom: 1px solid #444444;
+}
+
+[data-theme="dark"] table {
+  background-color: #1A1A1A;
+  color: #E6E6E6;
+  border-color: #444444;
+}
+
+[data-theme="dark"] thead {
+  background-color: #222222;
+  border-bottom: 1px solid #444444;
+}
+
+[data-theme="dark"] th,
+[data-theme="dark"] td {
+  border-color: #444444;
+}
+
+[data-theme="dark"] label {
+  color: #E6E6E6;
+}
+
+[data-theme="dark"] input,
+[data-theme="dark"] textarea,
+[data-theme="dark"] select {
+  background-color: #333333;
+  color: #E6E6E6;
+  border: 1px solid #555555;
+}
+
+[data-theme="dark"] input::placeholder,
+[data-theme="dark"] textarea::placeholder {
+  color: #bbbbbb;
+}
+
 /* Ensure masthead items stay on one line with toggle on the right */
 .masthead__menu {
   display: flex;
