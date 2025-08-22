@@ -4,13 +4,67 @@
 // Dark theme overrides
 [data-theme="dark"] {
   background-color: #121212;
-  color: #f0f0f0;
+  color: #ffffff;
+}
+
+[data-theme="dark"] body {
+  color: #ffffff;
 }
 
 [data-theme="dark"] a {
   color: #8ab4f8;
 }
 
+[data-theme="dark"] .masthead {
+  background-color: #000000;
+  border-bottom: 1px solid #333333;
+  color: #ffffff;
+}
+
+[data-theme="dark"] .masthead a {
+  color: #ffffff;
+}
+
+[data-theme="dark"] .masthead a:hover {
+  color: #dddddd;
+}
+
 [data-theme="dark"] .page__footer {
   background-color: #1e1e1e;
+}
+
+/* Ensure masthead items stay on one line with toggle on the right */
+.masthead__menu {
+  display: flex;
+  align-items: center;
+}
+
+.masthead__menu nav {
+  flex-grow: 1;
+}
+
+#theme-toggle {
+  margin-left: auto;
+  background: transparent;
+  border: 0;
+  padding: 0.25em;
+  color: inherit;
+  cursor: pointer;
+}
+
+#theme-toggle svg {
+  width: 24px;
+  height: 24px;
+}
+
+#theme-toggle .icon-moon {
+  display: none;
+}
+
+[data-theme="dark"] #theme-toggle .icon-sun {
+  display: none;
+}
+
+[data-theme="dark"] #theme-toggle .icon-moon {
+  display: inline;
 }
