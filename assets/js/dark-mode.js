@@ -7,15 +7,17 @@
     localStorage.setItem(storageKey, theme);
   };
 
+  const themeToggle = () => {
+    const current = document.documentElement.getAttribute('data-theme') === 'dark';
+    setTheme(current ? 'light' : 'dark');
+  };
+
   const stored = localStorage.getItem(storageKey);
   if (stored) {
     document.documentElement.setAttribute('data-theme', stored);
   }
 
   if (toggle) {
-    toggle.addEventListener('click', () => {
-      const current = document.documentElement.getAttribute('data-theme') === 'dark';
-      setTheme(current ? 'light' : 'dark');
-    });
+    toggle.addEventListener('click', themeToggle);
   }
 })();
