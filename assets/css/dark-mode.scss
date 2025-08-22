@@ -27,6 +27,11 @@
 
 #theme-toggle {
   margin-left: auto;
+  background: transparent;
+  border: 0;
+  padding: 0.25em;
+  color: inherit;
+  cursor: pointer;
 }
 
 #theme-toggle .icon-moon {
