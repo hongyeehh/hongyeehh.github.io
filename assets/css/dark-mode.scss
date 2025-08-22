@@ -1,0 +1,16 @@
+---
+---
+
+// Dark theme overrides
+[data-theme="dark"] {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+[data-theme="dark"] a {
+  color: #8ab4f8;
+}
+
+[data-theme="dark"] .page__footer {
+  background-color: #1e1e1e;
+}
