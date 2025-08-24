@@ -1,0 +1,16 @@
+{% include base_path %}
+<div class="publication">
+  <div class="publication__image">
+    <img src="{{ include.image | prepend: '/images/' | prepend: base_path }}" alt="{{ include.alt | default: include.title }}">
+  </div>
+  <div class="publication__info">
+    <p class="publication__title">{{ include.title }}</p>
+    <p class="publication__authors">{{ include.authors }}</p>
+    {% if include.description %}<p class="publication__description">{{ include.description }}</p>{% endif %}
+    <p class="publication__links">
+      {% if include.project %}<a href="{{ include.project }}">project</a>{% endif %}
+      {% if include.paper %}{% if include.project %} / {% endif %}<a href="{{ include.paper }}">paper</a>{% endif %}
+      {% if include.code %}{% if include.project or include.paper %} / {% endif %}<a href="{{ include.code }}">code</a>{% endif %}
+    </p>
+  </div>
+</div>

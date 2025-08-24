@@ -1,0 +1,51 @@
+.publication {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2em;
+}
+
+
+.publication__image {
+  margin-right: 1rem;
+  flex: 0 0 200px;
+  align-self: flex-start;
+}
+
+.publication__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.publication__image img {
+  width: 200px;
+  height: auto;
+}
+
+.publication__title {
+  margin: 0;
+  font-weight: 600;
+  color: $link-color;
+}
+
+.publication__authors,
+.publication__description,
+.publication__links {
+  margin: 0;
+}
+
+.publication__description {
+  font-style: italic;
+}
+
+.publication__links a {
+  color: #2a7ae2;
+}
+
+.publication__links {
+  margin-top: auto;
+}
+
+/* Remove paragraph margins within publications displayed in page content */
+.page__content .publication p {
+  margin: 0;
+}
