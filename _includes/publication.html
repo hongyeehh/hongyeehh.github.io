@@ -4,7 +4,7 @@
     <img src="{{ include.image | prepend: '/images/' | prepend: base_path }}" alt="{{ include.alt | default: include.title }}">
   </div>
   <div class="publication__info">
-    <p class="publication__title"><a href="{{ include.link }}">{{ include.title }}</a></p>
+    <p class="publication__title">{{ include.title }}</p>
     <p class="publication__authors">{{ include.authors }}</p>
     {% if include.description %}<p class="publication__description">{{ include.description }}</p>{% endif %}
     <p class="publication__links">

@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Ye Hong"
 title_separator          : "-"
 name                     : &name "Ye Hong"
-description              : &description "Postdoctoral Researcher @ ETH Zurich"
+description              : &description "Postdoctoral Researcher @ ETH Zurich & UZH"
 url                      : https://hongyeehh.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"https://hong2223.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hongyeehh/hongyeehh.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Dr. Ye Hong"
   avatar           : "profile.jpg"
-  bio              : "Postdoctoral Researcher @ MIE Lab, ETH Zurich"
+  bio              : "Lab Lead @ MIE Lab, ETHz & Postdoctoral Researcher @ Urban Analytics, UZH"
   location         : "Zurich, Switzerland"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=dnaRSnwAAAAJ&hl=en"
-  email            :
+  email            : "hongy@ethz.ch"
   researchgate     : "https://www.researchgate.net/profile/Ye-Hong-4"
   uri              :
   bitbucket        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "YeahhhYe"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
