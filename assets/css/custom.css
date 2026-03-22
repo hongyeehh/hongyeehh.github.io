@@ -1,0 +1,217 @@
+/* ============================================================
+   custom.css — Visual improvements for hongyeehh.github.io
+   ============================================================ */
+
+/* --------------------------------------------------
+   1. Typography: Inter font + improved readability
+   -------------------------------------------------- */
+body,
+.page__content,
+.author__name,
+.author__bio,
+.nav__list,
+.masthead__menu-item {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.page__content {
+  font-size: 0.95em;
+  line-height: 1.75;
+  max-width: 720px;
+}
+
+.page__content p {
+  margin-bottom: 1.2em;
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* --------------------------------------------------
+   2. Section headers with icon + divider
+   -------------------------------------------------- */
+.page__content h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid #e0e0e0;
+  font-size: 1.15em;
+  font-weight: 600;
+  color: #333;
+  letter-spacing: 0.01em;
+}
+
+[data-theme="dark"] .page__content h2 {
+  border-bottom-color: #444;
+  color: #e0e0e0;
+}
+
+/* --------------------------------------------------
+   3. Timeline-style news list
+   -------------------------------------------------- */
+.news-timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0.5em 0 1em 0;
+  position: relative;
+}
+
+.news-timeline::before {
+  content: '';
+  position: absolute;
+  left: 58px;
+  top: 8px;
+  bottom: 8px;
+  width: 2px;
+  background: linear-gradient(to bottom, #5b9bd5, #e0e0e0);
+  border-radius: 2px;
+}
+
+[data-theme="dark"] .news-timeline::before {
+  background: linear-gradient(to bottom, #8ab4f8, #444);
+}
+
+.news-timeline li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+  margin-bottom: 0.85em;
+  position: relative;
+}
+
+.news-timeline .news-date {
+  flex-shrink: 0;
+  width: 50px;
+  font-size: 0.75em;
+  font-weight: 600;
+  color: #5b9bd5;
+  text-align: right;
+  padding-top: 0.15em;
+  line-height: 1.4;
+}
+
+[data-theme="dark"] .news-timeline .news-date {
+  color: #8ab4f8;
+}
+
+.news-timeline .news-dot {
+  flex-shrink: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #5b9bd5;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1px #5b9bd5;
+  margin-top: 0.35em;
+  position: relative;
+  z-index: 1;
+}
+
+[data-theme="dark"] .news-timeline .news-dot {
+  background: #8ab4f8;
+  border-color: #1a1a1a;
+  box-shadow: 0 0 0 1px #8ab4f8;
+}
+
+.news-timeline .news-dot.news-dot--highlight {
+  background: #e8a020;
+  box-shadow: 0 0 0 1px #e8a020;
+}
+
+[data-theme="dark"] .news-timeline .news-dot.news-dot--highlight {
+  background: #f5c842;
+  box-shadow: 0 0 0 1px #f5c842;
+}
+
+.news-timeline .news-text {
+  flex: 1;
+  font-size: 0.88em;
+  line-height: 1.5;
+  color: #333;
+  padding-top: 0.05em;
+}
+
+[data-theme="dark"] .news-timeline .news-text {
+  color: #ccc;
+}
+
+.news-timeline .news-text a {
+  color: #5b9bd5;
+}
+
+[data-theme="dark"] .news-timeline .news-text a {
+  color: #8ab4f8;
+}
+
+/* --------------------------------------------------
+   4. Collapsible news: "show more" button
+   -------------------------------------------------- */
+.news-hidden {
+  display: none;
+}
+
+.news-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  margin-top: 0.4em;
+  margin-left: 80px;
+  padding: 0.3em 0.8em;
+  font-size: 0.82em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  color: #5b9bd5;
+  background: transparent;
+  border: 1px solid #5b9bd5;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.news-toggle-btn:hover {
+  background: #5b9bd5;
+  color: #fff;
+}
+
+[data-theme="dark"] .news-toggle-btn {
+  color: #8ab4f8;
+  border-color: #8ab4f8;
+}
+
+[data-theme="dark"] .news-toggle-btn:hover {
+  background: #8ab4f8;
+  color: #1a1a1a;
+}
+
+/* --------------------------------------------------
+   5. Featured publications note
+   -------------------------------------------------- */
+.pub-section-note {
+  font-size: 0.82em;
+  color: #888;
+  margin-bottom: 1em;
+  font-style: italic;
+}
+
+[data-theme="dark"] .pub-section-note {
+  color: #aaa;
+}
+
+/* --------------------------------------------------
+   6. General spacing improvements
+   -------------------------------------------------- */
+.page__content ul {
+  line-height: 1.7;
+}
+
+.notice--info {
+  border-radius: 8px;
+  font-size: 0.92em;
+}
