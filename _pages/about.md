@@ -8,20 +8,26 @@ redirect_from:
   - /about.html
 ---
 
+**🎉 Starting May 2026, I will join [Lund University](https://www.lunduniversity.lu.se/ye-hong) as an Assistant Professor in (Geo)AI and Regional Development!**
+{: .notice--info}
+
 Welcome!
 ======
 
-I am Ye Hong, a postdoctoral researcher at ETH Zurich, affiliated with the [Mobility Information Engineering (MIE) Lab](http://mie-lab.ethz.ch/) at the [Chair of Geoinformation Engineering](https://gis.ethz.ch/en/). I also hold a joint appointment at the University of Zurich's Department of Geography, where I work with the [Urban Analytics Group](https://www.geo.uzh.ch/en/units/una.html).
+I am Ye Hong, a postdoctoral researcher at ETH Zurich, affiliated with the [Mobility Information Engineering (MIE) Lab](http://mie-lab.ethz.ch/) at the [Chair of Geoinformation Engineering](https://gis.ethz.ch/en/). I also hold a joint appointment at the University of Zurich's Department of Geography, where I work with the [Urban Analytics Group](https://www.geo.uzh.ch/en/units/una.html). I am also a [Global Research Fellow](https://www.lunduniversity.lu.se/ye-hong) at the Faculty of Social Sciences, Lund University.
 
 I received my Doctor of Science degree from ETH Zurich, under the supervision of Prof. [Martin Raubal](https://www.raubal.ethz.ch/) and Prof. [Konrad Schindler](https://igp.ethz.ch/personen/person-detail.html?persid=143986). Before that, I obtained a master's degree in Geomatics from ETH Zurich and a bachelor's degree in Geographic Information Science and Remote Sensing from Sun Yat-sen University, China.
 
 My research interests lie at the intersection of human mobility, urban computing, and network science. My work centers on applying machine learning and deep learning techniques to understand, predict, and model individual mobility behavior. The overarching aim of my work is to develop computational frameworks that enable personalized travel solutions and facilitate the transition toward sustainable and intelligent transportation systems.
+
+**Future research directions:** At Lund University, my research will focus on developing GeoAI methods to link human mobility with social, environmental, and urban contexts. I aim to understand how dynamic mobility patterns influence inequalities in accessibility and exposure, and to translate these findings into decision-support tools for sustainable and inclusive urban planning.
 
 
 [Download CV](/files/cv-yehong.pdf)
 
 News
 ====
+* [03.2026] 🎉 I will join [Lund University](https://www.lunduniversity.lu.se/ye-hong) as an Assistant Professor in (Geo)AI and Regional Development at the [Department of Human Geography](https://www.keg.lu.se/en), Faculty of Social Sciences, starting May 2026. This position is part of the [Lund University Programme for Global Excellence](https://www.lunduniversity.lu.se/about-university/work-lund-university/lund-university-programme-global-excellence).
 * [05.2025] I gave a talk at the STRC '25 titled [Causal Inference for interpretable and robust deep learning in mobility analysis](https://doi.org/10.3929/ethz-b-000744423).
 * [05.2025] Our paper [A causal intervention framework for synthesizing mobility data and evaluating predictive neural networks](https://doi.org/10.1016/j.trip.2025.101398) was published in *TRIP*. 
 * [05.2024] I gave a talk at the STRC '24 titled [Towards realistic individual activity location demand synthesis using deep generative networks](https://doi.org/10.3929/ethz-b-000683550).
