@@ -11,13 +11,13 @@ body,
 .author__bio,
 .nav__list,
 .masthead__menu-item {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 .page__content {
-  font-size: 0.95em;
+  font-size: 1em;
   line-height: 1.75;
-  max-width: 720px;
+  max-width: 850px;
 }
 
 .page__content p {
@@ -26,30 +26,38 @@ body,
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
   letter-spacing: -0.01em;
 }
 
 /* --------------------------------------------------
-   2. Section headers with icon + divider
+   2. Section headers with icon 
    -------------------------------------------------- */
 .page__content h2 {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 0.4em;
   margin-top: 2em;
-  margin-bottom: 0.6em;
-  padding-bottom: 0.4em;
-  border-bottom: 2px solid #e0e0e0;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.2em;
+  border-bottom: 2px solid #eaeaea;
+  padding-right: 1em;
   font-size: 1.15em;
   font-weight: 600;
   color: #333;
   letter-spacing: 0.01em;
 }
 
+/* Clearfix for inline-flex h2 so next element drops below */
+.page__content h2::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 [data-theme="dark"] .page__content h2 {
-  border-bottom-color: #444;
+  border-bottom-color: #333;
   color: #e0e0e0;
 }
 
@@ -66,7 +74,7 @@ h1, h2, h3, h4 {
 .news-timeline::before {
   content: '';
   position: absolute;
-  left: 58px;
+  left: 68px; /* shifted right to accommodate wider date */
   top: 8px;
   bottom: 8px;
   width: 2px;
@@ -88,8 +96,8 @@ h1, h2, h3, h4 {
 
 .news-timeline .news-date {
   flex-shrink: 0;
-  width: 50px;
-  font-size: 0.75em;
+  width: 60px; /* increased width for larger font */
+  font-size: 0.9em; /* increased from 0.75em */
   font-weight: 600;
   color: #5b9bd5;
   text-align: right;
@@ -132,7 +140,7 @@ h1, h2, h3, h4 {
 
 .news-timeline .news-text {
   flex: 1;
-  font-size: 0.88em;
+  font-size: 1em; /* increased from 0.88em */
   line-height: 1.5;
   color: #333;
   padding-top: 0.05em;
@@ -153,7 +161,7 @@ h1, h2, h3, h4 {
 /* --------------------------------------------------
    4. Collapsible news: "show more" button
    -------------------------------------------------- */
-.news-hidden {
+.news-timeline li.news-hidden {
   display: none;
 }
 
@@ -165,8 +173,8 @@ h1, h2, h3, h4 {
   margin-left: 80px;
   padding: 0.3em 0.8em;
   font-size: 0.82em;
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
   color: #5b9bd5;
   background: transparent;
   border: 1px solid #5b9bd5;
@@ -214,4 +222,174 @@ h1, h2, h3, h4 {
 .notice--info {
   border-radius: 8px;
   font-size: 0.92em;
+}
+
+[data-theme="dark"] .notice--info {
+  background-color: #1c2e47 !important;
+  color: #e2e8f0;
+}
+
+[data-theme="dark"] .notice--info a {
+  color: #8ab4f8 !important;
+}
+
+/* --------------------------------------------------
+   7. Typography & Publication Cards Alignment
+   -------------------------------------------------- */
+
+/* Unify content links to match the Timeline News blue */
+.page__content a:not(.btn) {
+  color: #5b9bd5 !important;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.page__content a:not(.btn):hover {
+  text-decoration: underline;
+}
+
+[data-theme="dark"] .page__content a:not(.btn) {
+  color: #8ab4f8 !important;
+}
+
+/* Publication card layout reset & interactive hover */
+.publication {
+  gap: 1.5rem;
+  margin-bottom: 1.5rem !important; /* Tighten to account for padding */
+  align-items: flex-start !important;
+  padding: 1.25rem;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.publication:hover {
+  background: #f6fafe;
+  border-color: #e2e8f0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+}
+
+[data-theme="dark"] .publication:hover {
+  background: #182233;
+  border-color: #2d3748;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.publication--text-only {
+  padding: 0.5rem 0.8rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Thumbnail framing */
+.publication__image {
+  margin-right: 0 !important;
+  flex: 0 0 200px !important;
+}
+
+.publication__image img {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+[data-theme="dark"] .publication__image img {
+  border-color: rgba(255,255,255,0.05);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+/* Info section gap and alignments */
+.publication__info {
+  gap: 0.2rem;
+  justify-content: flex-start;
+  padding-top: 0.2rem;
+}
+
+/* Override squished margins and global line height */
+.page__content .publication p {
+  margin-bottom: 0 !important;
+  line-height: 1.4 !important;
+}
+
+.publication__title {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #111 !important;
+  line-height: 1.25 !important;
+  margin-bottom: 0.15rem !important;
+}
+
+[data-theme="dark"] .publication__title {
+  color: #fff !important;
+}
+
+.publication__authors {
+  font-size: 0.95em;
+  color: #555;
+}
+
+.publication__authors strong {
+  color: #2b6cb0;
+  font-weight: 700;
+}
+
+[data-theme="dark"] .publication__authors {
+  color: #bbb;
+}
+
+[data-theme="dark"] .publication__authors strong {
+  color: #90cdf4;
+}
+
+.publication__description {
+  font-size: 0.9em;
+  color: #666;
+  font-style: italic;
+}
+
+[data-theme="dark"] .publication__description {
+  color: #999;
+}
+
+/* Beautiful action buttons instead of plain text links */
+.publication__links {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 0.6rem !important;
+  flex-wrap: wrap;
+}
+
+.publication__links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.7rem;
+  background: #f1f5f9;
+  color: #475569 !important;
+  border-radius: 6px;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: all 0.2s;
+  border: 1px solid #e2e8f0;
+}
+
+.publication__links a:hover {
+  background: #5b9bd5;
+  color: #fff !important;
+  border-color: #5b9bd5;
+  transform: translateY(-1px);
+}
+
+[data-theme="dark"] .publication__links a {
+  background: #1e293b;
+  border-color: #334155;
+  color: #cbd5e1 !important;
+}
+
+[data-theme="dark"] .publication__links a:hover {
+  background: #8ab4f8;
+  color: #0f172a !important;
+  border-color: #8ab4f8;
 }

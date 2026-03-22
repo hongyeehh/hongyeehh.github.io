@@ -31,7 +31,7 @@ My research interests lie at the intersection of human mobility, urban computing
   <li>
     <span class="news-date">03.2026</span>
     <span class="news-dot news-dot--highlight"></span>
-    <span class="news-text">🎉 I will join <a href="https://www.lunduniversity.lu.se/ye-hong">Lund University</a> as an Assistant Professor in (Geo)AI and Regional Development at the <a href="https://www.keg.lu.se/en">Department of Human Geography</a>, Faculty of Social Sciences, starting May 2026. Part of the <a href="https://www.lunduniversity.lu.se/about-university/work-lund-university/lund-university-programme-global-excellence">Lund University Programme for Global Excellence</a>.</span>
+    <span class="news-text">🎉 I will join <a href="https://www.lunduniversity.lu.se/ye-hong" target="_blank" rel="noopener noreferrer">Lund University</a> as an Assistant Professor in (Geo)AI and Regional Development at the <a href="https://www.keg.lu.se/en" target="_blank" rel="noopener noreferrer">Department of Human Geography</a>, Faculty of Social Sciences, starting May 2026. Part of the <a href="https://www.lunduniversity.lu.se/lund-university-programme-global-excellence" target="_blank" rel="noopener noreferrer">Lund University Programme for Global Excellence</a>.</span>
   </li>
   <li>
     <span class="news-date">05.2025</span>
@@ -54,44 +54,11 @@ My research interests lie at the intersection of human mobility, urban computing
     <span class="news-dot"></span>
     <span class="news-text">Paper <a href="https://doi.org/10.1016/j.landusepol.2024.107180">Is a 15-Minute City Within Reach? Measuring Multimodal Accessibility and Carbon Footprint in 12 Major American Cities</a> published in <em>Land Use Policy</em>.</span>
   </li>
-  <li class="news-hidden">
-    <span class="news-date">11.2023</span>
-    <span class="news-dot"></span>
-    <span class="news-text">Paper <a href="https://doi.org/10.1016/j.jtrangeo.2023.103736">Evaluating geospatial context information for travel mode detection</a> published in <em>Journal of Transport Geography</em>.</span>
-  </li>
-  <li class="news-hidden">
-    <span class="news-date">08.2023</span>
-    <span class="news-dot"></span>
-    <span class="news-text">Paper <a href="https://doi.org/10.1016/j.trc.2023.104315">Context-aware multi-head self-attentional neural network model for next location prediction</a> published in <em>TRC</em>.</span>
-  </li>
-  <li class="news-hidden">
-    <span class="news-date">07.2023</span>
-    <span class="news-dot"></span>
-    <span class="news-text">Paper <a href="https://doi.org/10.1080/17489725.2023.2239190">Influence of tracking duration on the privacy of individual mobility graphs</a> published in <em>Journal of Location Based Services</em>.</span>
-  </li>
-  <li class="news-hidden">
-    <span class="news-date">07.2023</span>
-    <span class="news-dot"></span>
-    <span class="news-text">Paper <a href="https://doi.org/10.1016/j.compenvurbsys.2023.102009">Predicting mobile users' next location using the semantically enriched geo-embedding model</a> published in <em>CEUS</em>.</span>
-  </li>
-  <li class="news-hidden">
-    <span class="news-date">07.2023</span>
-    <span class="news-dot"></span>
-    <span class="news-text">Paper <a href="https://doi.org/10.4230/LIPIcs.GIScience.2023.84">Predicting visit frequencies to new places</a> accepted at GIScience '23.</span>
-  </li>
-  <li class="news-hidden">
-    <span class="news-date">07.2023</span>
-    <span class="news-dot"></span>
-    <span class="news-text"><a href="https://doi.org/10.1016/j.compenvurbsys.2023.101938">Trackintel: An open-source Python library for human mobility analysis</a> published in <em>CEUS</em>.</span>
-  </li>
-  <li class="news-hidden">
-    <span class="news-date">12.2022</span>
-    <span class="news-dot"></span>
-    <span class="news-text"><a href="https://doi.org/10.1016/j.trc.2022.103979">Conserved quantities in human mobility: from locations to trips</a> published in <em>TRC</em>.</span>
-  </li>
 </ul>
 
-<button class="news-toggle-btn" id="news-toggle-btn" data-expanded="false">&#9660; Show older news</button> 
+<div style="text-align: right; margin-top: 1rem;">
+  <a href="/news/" class="btn btn--primary">View all news &rarr;</a>
+</div> 
 
 
 ## 📄 Publications {#publications}
@@ -131,74 +98,6 @@ My research interests lie at the intersection of human mobility, urban computing
    paper="https://doi.org/10.1016/j.trc.2023.104315"
    code="https://github.com/mie-lab/location-prediction"
 %}
-
-
-{% include publication.html
-   image="lbs_2023.jpg"
-   title="Influence of tracking duration on the privacy of individual mobility graphs"
-   authors="Nina Wiedemann*, Henry Martin, Esra Suel, <strong>Ye Hong</strong>, Yanan Xin"
-   description="Journal of Location Based Services, 2023"
-   paper="https://doi.org/10.1080/17489725.2023.2239190"
-   code="https://github.com/mie-lab/topology_privacy"
-%}
-
-{% include publication.html
-   image="ijgis_2023.jpg"
-   title="Predicting mobile users' next location using the semantically enriched geo-embedding model and the multilayer attention mechanism"
-   authors="Yao Yao, Zijin Guo, Chen Dou, Minghui Jia, <strong>Ye Hong</strong>, Qingfeng Guan*, Peng Luo*"
-   description="Computers, Environment and Urban Systems, 2023"
-   paper="https://doi.org/10.1016/j.compenvurbsys.2023.102009"
-%}
-
-{% include publication.html
-   image="giscience_2023.png"
-   title="Predicting visit frequencies to new places"
-   authors="Nina Wiedemann*, <strong>Ye Hong</strong>, Martin Raubal"
-   description="GIScience, 2023"
-   paper="https://doi.org/10.4230/LIPIcs.GIScience.2023.84"
-   code="https://github.com/mie-lab/predict-visits"
-%}
-
-{% include publication.html
-   image="ceus_2023.png"
-   title="Trackintel: An open-source Python library for human mobility analysis"
-   authors="Henry Martin#, <strong>Ye Hong</strong>#, Nina Wiedemann#, Dominik Bucher, Martin Raubal"
-   description="Computers, Environment and Urban Systems, 2023"
-   paper="https://doi.org/10.1016/j.compenvurbsys.2023.101938"
-   code="https://github.com/mie-lab/trackintel"
-%}
-
-{% include publication.html
-   image="const.png"
-   title="Conserved quantities in human mobility: From locations to trips"
-   authors="<strong>Ye Hong</strong>*, Henry Martin, Yanan Xin, Dominik Bucher, Daniel J Reck, Kay W Axhausen, Martin Raubal"
-   description="Transportation Research Part C: Emerging Technologies, 2023"
-   paper="https://doi.org/10.1016/j.trc.2022.103979"
-%}
-
-
-{% include publication.html
-   image="sigspatial_2022.png"
-   title="How do you go where? Improving next location prediction by learning travel mode information using transformers"
-   authors="<strong>Ye Hong</strong>*, Henry Martin, Martin Raubal"
-   description="ACM SIGSPATIAL, 2022"
-   paper="https://doi.org/10.1145/3557915.3560996"
-   code="https://github.com/mie-lab/location-mode-prediction"
-%}
-
-{% include publication.html
-   image="giscience_2021.png"
-   title="A Clustering-Based Framework for Individual Travel Behaviour Change Detection"
-   authors="<strong>Ye Hong</strong>*, Yanan Xin, Henry Martin, Dominik Bucher, Martin Raubal"
-   description="GIScience, 2021"
-   paper="https://doi.org/10.4230/LIPIcs.GIScience.2021.II.4"
-   code="https://github.com/mie-lab/change-detection"
-%}
-
-{% include publication.html
-   image="ijgis_2019.jpg"
-   title="Hierarchical community detection and functional area identification with OSM roads and complex graph theory"
-   authors="<strong>Ye Hong</strong>, Yao Yao*"
-   description="International Journal of Geographical Information Science, 2019"
-   paper="https://doi.org/10.1080/13658816.2019.1584806"
-%}
+<div style="text-align: right; margin-top: 1rem;">
+  <a href="/publications/" class="btn btn--primary">View all publications &rarr;</a>
+</div>

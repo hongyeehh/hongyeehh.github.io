@@ -1,16 +1,18 @@
 {% include base_path %}
-<div class="publication">
+<div class="publication {% unless include.image %}publication--text-only{% endunless %}">
+  {% if include.image %}
   <div class="publication__image">
     <img src="{{ include.image | prepend: '/images/' | prepend: base_path }}" alt="{{ include.alt | default: include.title }}">
   </div>
+  {% endif %}
   <div class="publication__info">
     <p class="publication__title">{{ include.title }}</p>
     <p class="publication__authors">{{ include.authors }}</p>
     {% if include.description %}<p class="publication__description">{{ include.description }}</p>{% endif %}
-    <p class="publication__links">
-      {% if include.project %}<a href="{{ include.project }}">project</a>{% endif %}
-      {% if include.paper %}{% if include.project %} / {% endif %}<a href="{{ include.paper }}">paper</a>{% endif %}
-      {% if include.code %}{% if include.project or include.paper %} / {% endif %}<a href="{{ include.code }}">code</a>{% endif %}
-    </p>
+    <div class="publication__links">
+      {% if include.project %}<a href="{{ include.project }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i> Project</a>{% endif %}
+      {% if include.paper %}<a href="{{ include.paper }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i> Paper</a>{% endif %}
+      {% if include.code %}<a href="{{ include.code }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>{% endif %}
+    </div>
   </div>
 </div>
