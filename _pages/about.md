@@ -76,6 +76,7 @@ My research interests lie at the intersection of human mobility, urban computing
    authors="Yatao Zhang, <strong>Ye Hong</strong>, Song Gao, Martin Raubal"
    description="Nature Communications, 2026"
    paper="https://doi.org/10.1038/s41467-026-71377-0"
+   code="https://doi.org/10.6084/m9.figshare.28656800"
 %}
 
 {% include publication.html
