@@ -71,7 +71,7 @@ I received my Doctor of Science degree from ETH Zurich, under the supervision of
 {% include publication.html
    image="clustering_cities_ylbu.jpg"
    title="Bidirectional yet asymmetric causality between urban systems and traffic dynamics in 30 cities worldwide"
-   authors="Yatao Zhang, <strong>Ye Hong</strong>, Song Gao, Martin Raubal"
+   authors="Yatao Zhang*, <strong>Ye Hong</strong>, Song Gao, Martin Raubal"
    description="Nature Communications, 2026"
    paper="https://doi.org/10.1038/s41467-026-71377-0"
    code="https://doi.org/10.6084/m9.figshare.28656800"
