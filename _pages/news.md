@@ -7,9 +7,14 @@ author_profile: true
 
 <ul class="news-timeline">
   <li>
-    <span class="news-date">03.2026</span>
+    <span class="news-date">05.2026</span>
     <span class="news-dot news-dot--highlight"></span>
-    <span class="news-text">🎉 I will join <a href="https://www.lunduniversity.lu.se/ye-hong">Lund University</a> as an Assistant Professor in (Geo)AI and Regional Development at the <a href="https://www.keg.lu.se/en">Department of Human Geography</a>, Faculty of Social Sciences, starting May 2026. Part of the <a href="https://www.lunduniversity.lu.se/lund-university-programme-global-excellence">Lund University Programme for Global Excellence</a>.</span>
+    <span class="news-text">🎉 I started my position as Assistant Professor in (Geo)AI and Regional Development at <a href="https://www.lunduniversity.lu.se/ye-hong">Lund University</a>, at the <a href="https://www.keg.lu.se/en">Department of Human Geography</a>, Faculty of Social Sciences, in May 2026. This appointment is part of the <a href="https://www.lunduniversity.lu.se/lund-university-programme-global-excellence">Lund University Programme for Global Excellence</a>.</span>
+  </li>
+  <li>
+    <span class="news-date">04.2026</span>
+    <span class="news-dot"></span>
+    <span class="news-text">Paper <a href="https://doi.org/10.1038/s41467-026-71377-0">Bidirectional yet asymmetric causality between urban systems and traffic dynamics in 30 cities worldwide</a> published in <em>Nature Communications</em>.</span>
   </li>
   <li>
     <span class="news-date">05.2025</span>

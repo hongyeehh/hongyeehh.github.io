@@ -11,6 +11,14 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 ## Journal Articles
 
 {% include publication.html
+   image="clustering_cities_ylbu.jpg"
+   title="Bidirectional yet asymmetric causality between urban systems and traffic dynamics in 30 cities worldwide"
+   authors="Yatao Zhang, <strong>Ye Hong</strong>, Song Gao, Martin Raubal"
+   description="Nature Communications, 2026"
+   paper="https://doi.org/10.1038/s41467-026-71377-0"
+%}
+
+{% include publication.html
    image="trip_2025.png"
    title="Revealing behavioral impact on mobility prediction networks through causal intervention"
    authors="<strong>Ye Hong</strong>, Yanan Xin, Simon Dirmeier, Fernando Perez-Cruz, Martin Raubal"
@@ -242,13 +250,6 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
    authors="<strong>Ye Hong</strong>, Yatao Zhang, Konrad Schindler, Martin Raubal"
    description="Under Review, 2025"
    paper="https://doi.org/10.48550/arXiv.2510.06473"
-%}
-
-{% include publication.html
-   title="Bidirectional yet asymmetric causality between urban systems and traffic dynamics in 30 cities worldwide"
-   authors="Yatao Zhang, <strong>Ye Hong</strong>, Song Gao, Martin Raubal"
-   description="Under Review, 2025"
-   paper="https://doi.org/10.48550/arXiv.2510.25155"
 %}
 
 {% include publication.html

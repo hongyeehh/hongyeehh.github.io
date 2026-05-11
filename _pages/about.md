@@ -8,19 +8,21 @@ redirect_from:
   - /about.html
 ---
 
-**🎉 Starting May 2026, I will join [Lund University](https://www.lunduniversity.lu.se/ye-hong) as an Assistant Professor in (Geo)AI and Regional Development!**
+**🎉 Since May 2026, I have been an Assistant Professor in (Geo)AI and Regional Development at [Lund University](https://www.lunduniversity.lu.se/ye-hong).**
 {: .notice--info}
 
 Welcome!
 ======
 
-I am Ye Hong, a postdoctoral researcher at ETH Zurich, affiliated with the [Mobility Information Engineering (MIE) Lab](http://mie-lab.ethz.ch/) at the [Chair of Geoinformation Engineering](https://gis.ethz.ch/en/). I also hold a joint appointment at the University of Zurich's Department of Geography, where I work with the [Urban Analytics Group](https://www.geo.uzh.ch/en/units/una.html). I am also a [Global Research Fellow](https://www.lunduniversity.lu.se/ye-hong) at the Faculty of Social Sciences, Lund University.
+I am Ye Hong, an Assistant Professor in (Geo)AI and Regional Development at [Lund University](https://www.lunduniversity.lu.se/ye-hong), based at the [Department of Human Geography](https://www.keg.lu.se/en) in the Faculty of Social Sciences.
+
+Previously, I was a postdoctoral researcher at ETH Zurich, affiliated with the [Mobility Information Engineering (MIE) Lab](http://mie-lab.ethz.ch/) at the [Chair of Geoinformation Engineering](https://gis.ethz.ch/en/). I also held a joint appointment at the University of Zurich's Department of Geography, where I worked with the [Urban Analytics Group](https://www.geo.uzh.ch/en/units/una.html).
 
 I received my Doctor of Science degree from ETH Zurich, under the supervision of Prof. [Martin Raubal](https://www.raubal.ethz.ch/) and Prof. [Konrad Schindler](https://igp.ethz.ch/personen/person-detail.html?persid=143986). Before that, I obtained a master's degree in Geomatics from ETH Zurich and a bachelor's degree in Geographic Information Science and Remote Sensing from Sun Yat-sen University, China.
 
 My research interests lie at the intersection of human mobility, urban computing, and network science. My work centers on applying machine learning and deep learning techniques to understand, predict, and model individual mobility behavior. The overarching aim of my work is to develop computational frameworks that enable personalized travel solutions and facilitate the transition toward sustainable and intelligent transportation systems.
 
-**Future research directions:** At Lund University, my research will focus on developing GeoAI methods to link human mobility with social, environmental, and urban contexts. I aim to understand how dynamic mobility patterns influence inequalities in accessibility and exposure, and to translate these findings into decision-support tools for sustainable and inclusive urban planning.
+**Research directions at Lund University:** My research focuses on developing GeoAI methods to link human mobility with social, environmental, and urban contexts. I aim to understand how dynamic mobility patterns influence inequalities in accessibility and exposure, and to translate these findings into decision-support tools for sustainable and inclusive urban planning.
 
 
 [Download CV](/files/cv-yehong.pdf)
@@ -29,9 +31,14 @@ My research interests lie at the intersection of human mobility, urban computing
 
 <ul class="news-timeline">
   <li>
-    <span class="news-date">03.2026</span>
+    <span class="news-date">05.2026</span>
     <span class="news-dot news-dot--highlight"></span>
-    <span class="news-text">🎉 I will join <a href="https://www.lunduniversity.lu.se/ye-hong" target="_blank" rel="noopener noreferrer">Lund University</a> as an Assistant Professor in (Geo)AI and Regional Development at the <a href="https://www.keg.lu.se/en" target="_blank" rel="noopener noreferrer">Department of Human Geography</a>, Faculty of Social Sciences, starting May 2026. Part of the <a href="https://www.lunduniversity.lu.se/lund-university-programme-global-excellence" target="_blank" rel="noopener noreferrer">Lund University Programme for Global Excellence</a>.</span>
+    <span class="news-text">🎉 I started my position as Assistant Professor in (Geo)AI and Regional Development at <a href="https://www.lunduniversity.lu.se/ye-hong" target="_blank" rel="noopener noreferrer">Lund University</a>, at the <a href="https://www.keg.lu.se/en" target="_blank" rel="noopener noreferrer">Department of Human Geography</a>, Faculty of Social Sciences, in May 2026. This appointment is part of the <a href="https://www.lunduniversity.lu.se/lund-university-programme-global-excellence" target="_blank" rel="noopener noreferrer">Lund University Programme for Global Excellence</a>.</span>
+  </li>
+  <li>
+    <span class="news-date">04.2026</span>
+    <span class="news-dot"></span>
+    <span class="news-text">Paper <a href="https://doi.org/10.1038/s41467-026-71377-0">Bidirectional yet asymmetric causality between urban systems and traffic dynamics in 30 cities worldwide</a> published in <em>Nature Communications</em>.</span>
   </li>
   <li>
     <span class="news-date">05.2025</span>
@@ -62,6 +69,14 @@ My research interests lie at the intersection of human mobility, urban computing
 
 
 ## 📄 Publications {#publications}
+
+{% include publication.html
+   image="clustering_cities_ylbu.jpg"
+   title="Bidirectional yet asymmetric causality between urban systems and traffic dynamics in 30 cities worldwide"
+   authors="Yatao Zhang, <strong>Ye Hong</strong>, Song Gao, Martin Raubal"
+   description="Nature Communications, 2026"
+   paper="https://doi.org/10.1038/s41467-026-71377-0"
+%}
 
 {% include publication.html
    image="trip_2025.png"
