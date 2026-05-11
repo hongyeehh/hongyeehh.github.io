@@ -20,9 +20,7 @@ Previously, I was a postdoctoral researcher at ETH Zurich, affiliated with the [
 
 I received my Doctor of Science degree from ETH Zurich, under the supervision of Prof. [Martin Raubal](https://www.raubal.ethz.ch/) and Prof. [Konrad Schindler](https://igp.ethz.ch/personen/person-detail.html?persid=143986). Before that, I obtained a master's degree in Geomatics from ETH Zurich and a bachelor's degree in Geographic Information Science and Remote Sensing from Sun Yat-sen University, China.
 
-My research interests lie at the intersection of human mobility, urban computing, and network science. My work centers on applying machine learning and deep learning techniques to understand, predict, and model individual mobility behavior. The overarching aim of my work is to develop computational frameworks that enable personalized travel solutions and facilitate the transition toward sustainable and intelligent transportation systems.
-
-**Research directions at Lund University:** My research focuses on developing GeoAI methods to link human mobility with social, environmental, and urban contexts. I aim to understand how dynamic mobility patterns influence inequalities in accessibility and exposure, and to translate these findings into decision-support tools for sustainable and inclusive urban planning.
+**Research directions @Lund** combine human mobility, urban computing, and network science ideas. I develop GeoAI methods to study mobility behavior and its links to social, environmental, and urban contexts. The goal is to understand how mobility patterns shape spatial inequalities, and to provide support for more sustainable and inclusive transport and urban planning.
 
 
 [Download CV](/files/cv-yehong.pdf)
