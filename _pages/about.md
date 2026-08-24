@@ -29,6 +29,16 @@ I received my Doctor of Science degree from ETH Zurich, under the supervision of
 
 <ul class="news-timeline">
   <li>
+    <span class="news-date">08.2026</span>
+    <span class="news-dot"></span>
+    <span class="news-text">Paper <a href="https://doi.org/10.1016/j.trc.2026.105916">Deep generative model for human mobility behavior</a> published in <em>Transportation Research Part C: Emerging Technologies</em>.</span>
+  </li>
+  <li>
+    <span class="news-date">07.2026</span>
+    <span class="news-dot"></span>
+    <span class="news-text">Paper <a href="https://doi.org/10.48550/arXiv.2510.13774">UrbanFusion: Stochastic Multimodal Fusion for Contrastive Learning of Robust Spatial Representations</a> accepted at ICML 2026.</span>
+  </li>
+  <li>
     <span class="news-date">05.2026</span>
     <span class="news-dot news-dot--highlight"></span>
     <span class="news-text">🎉 I started my position as Assistant Professor in (Geo)AI and Regional Development at <a href="https://www.lunduniversity.lu.se/ye-hong" target="_blank" rel="noopener noreferrer">Lund University</a>, at the <a href="https://www.keg.lu.se/en" target="_blank" rel="noopener noreferrer">Department of Human Geography</a>, Faculty of Social Sciences, in May 2026. This appointment is part of the <a href="https://www.lunduniversity.lu.se/lund-university-programme-global-excellence" target="_blank" rel="noopener noreferrer">Lund University Programme for Global Excellence</a>.</span>
@@ -38,17 +48,17 @@ I received my Doctor of Science degree from ETH Zurich, under the supervision of
     <span class="news-dot"></span>
     <span class="news-text">Paper <a href="https://doi.org/10.1038/s41467-026-71377-0">Bidirectional yet asymmetric causality between urban systems and traffic dynamics in 30 cities worldwide</a> published in <em>Nature Communications</em>.</span>
   </li>
-  <li>
+  <!-- Older news (hidden by default) -->
+  <li class="news-hidden">
     <span class="news-date">05.2025</span>
     <span class="news-dot"></span>
     <span class="news-text">Gave a talk at STRC '25: <a href="https://doi.org/10.3929/ethz-b-000744423">Causal Inference for interpretable and robust deep learning in mobility analysis</a>.</span>
   </li>
-  <li>
+  <li class="news-hidden">
     <span class="news-date">05.2025</span>
     <span class="news-dot"></span>
     <span class="news-text">Paper <a href="https://doi.org/10.1016/j.trip.2025.101398">A causal intervention framework for synthesizing mobility data and evaluating predictive neural networks</a> published in <em>TRIP</em>.</span>
   </li>
-  <!-- Older news (hidden by default) -->
   <li class="news-hidden">
     <span class="news-date">05.2024</span>
     <span class="news-dot"></span>
@@ -67,6 +77,24 @@ I received my Doctor of Science degree from ETH Zurich, under the supervision of
 
 
 ## 📄 Publications {#publications}
+
+{% include publication.html
+   image="mobilitygen_2026.png"
+   title="Deep generative model for human mobility behavior"
+   authors="<strong>Ye Hong</strong>*, Yatao Zhang, Konrad Schindler, Martin Raubal"
+   description="Transportation Research Part C: Emerging Technologies, 2026"
+   paper="https://doi.org/10.1016/j.trc.2026.105916"
+   code="https://github.com/mie-lab/mobility_generation"
+%}
+
+{% include publication.html
+   image="urbanfusion_2026.png"
+   title="UrbanFusion: Stochastic Multimodal Fusion for Contrastive Learning of Robust Spatial Representations"
+   authors="D. J. Mühlematter, L. Che, <strong>Ye Hong</strong>, Martin Raubal, Nina Wiedemann"
+   description="43rd International Conference on Machine Learning (ICML), 2026"
+   paper="https://doi.org/10.48550/arXiv.2510.13774"
+   code="https://github.com/DominikM198/UrbanFusion"
+%}
 
 {% include publication.html
    image="clustering_cities_ylbu.jpg"
@@ -91,7 +119,7 @@ I received my Doctor of Science degree from ETH Zurich, under the supervision of
    image="lup_25.jpg"
    title="Is a 15-Minute City Within Reach? Measuring Multimodal Accessibility and Carbon Footprint in 12 Major American Cities"
    authors="Tanhua Jin, Kailai Wang*, Yanan Xin, Jian Shi, <strong>Ye Hong</strong>, Frank Witlox"
-   description="Land Use Policy, 2025"
+   description="Land Use Policy, 2024"
    paper="https://doi.org/10.1016/j.landusepol.2024.107180"
 %}
 

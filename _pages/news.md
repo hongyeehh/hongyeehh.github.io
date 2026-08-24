@@ -7,6 +7,16 @@ author_profile: true
 
 <ul class="news-timeline">
   <li>
+    <span class="news-date">08.2026</span>
+    <span class="news-dot"></span>
+    <span class="news-text">Paper <a href="https://doi.org/10.1016/j.trc.2026.105916">Deep generative model for human mobility behavior</a> published in <em>Transportation Research Part C: Emerging Technologies</em>.</span>
+  </li>
+  <li>
+    <span class="news-date">07.2026</span>
+    <span class="news-dot"></span>
+    <span class="news-text">Paper <a href="https://doi.org/10.48550/arXiv.2510.13774">UrbanFusion: Stochastic Multimodal Fusion for Contrastive Learning of Robust Spatial Representations</a> accepted at ICML 2026.</span>
+  </li>
+  <li>
     <span class="news-date">05.2026</span>
     <span class="news-dot news-dot--highlight"></span>
     <span class="news-text">🎉 I started my position as Assistant Professor in (Geo)AI and Regional Development at <a href="https://www.lunduniversity.lu.se/ye-hong">Lund University</a>, at the <a href="https://www.keg.lu.se/en">Department of Human Geography</a>, Faculty of Social Sciences, in May 2026. This appointment is part of the <a href="https://www.lunduniversity.lu.se/lund-university-programme-global-excellence">Lund University Programme for Global Excellence</a>.</span>

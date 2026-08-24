@@ -11,6 +11,15 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 ## Journal Articles
 
 {% include publication.html
+   image="mobilitygen_2026.png"
+   title="Deep generative model for human mobility behavior"
+   authors="<strong>Ye Hong</strong>, Yatao Zhang, Konrad Schindler, Martin Raubal"
+   description="Transportation Research Part C: Emerging Technologies, 2026"
+   paper="https://doi.org/10.1016/j.trc.2026.105916"
+   code="https://github.com/mie-lab/mobility_generation"
+%}
+
+{% include publication.html
    image="clustering_cities_ylbu.jpg"
    title="Bidirectional yet asymmetric causality between urban systems and traffic dynamics in 30 cities worldwide"
    authors="Yatao Zhang, <strong>Ye Hong</strong>, Song Gao, Martin Raubal"
@@ -21,7 +30,7 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 {% include publication.html
    image="trip_2025.png"
-   title="Revealing behavioral impact on mobility prediction networks through causal intervention"
+   title="A causal intervention framework for synthesizing mobility data and evaluating predictive neural networks"
    authors="<strong>Ye Hong</strong>, Yanan Xin, Simon Dirmeier, Fernando Perez-Cruz, Martin Raubal"
    description="Transportation Research Interdisciplinary Perspectives, 2025"
    paper="https://doi.org/10.1016/j.trip.2025.101398"
@@ -32,7 +41,7 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
    image="lup_25.jpg"
    title="Is a 15-Minute City Within Reach? Measuring Multimodal Accessibility and Carbon Footprint in 12 Major American Cities"
    authors="Tanhua Jin, Kailai Wang, Yanan Xin, Jian Shi, <strong>Ye Hong</strong>, Frank Witlox"
-   description="Land Use Policy, 2025"
+   description="Land Use Policy, 2024"
    paper="https://doi.org/10.1016/j.landusepol.2024.107180"
 %}
 
@@ -190,6 +199,15 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 ## Conference Proceedings
 
 {% include publication.html
+   image="urbanfusion_2026.png"
+   title="UrbanFusion: Stochastic Multimodal Fusion for Contrastive Learning of Robust Spatial Representations"
+   authors="D. J. Mühlematter, L. Che, <strong>Ye Hong</strong>, Martin Raubal, Nina Wiedemann"
+   description="43rd International Conference on Machine Learning (ICML), 2026"
+   paper="https://doi.org/10.48550/arXiv.2510.13774"
+   code="https://github.com/DominikM198/UrbanFusion"
+%}
+
+{% include publication.html
    image="giscience_2023.png"
    title="Predicting visit frequencies to new places"
    authors="Nina Wiedemann, <strong>Ye Hong</strong>, Martin Raubal"
@@ -245,20 +263,6 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 %}
 
 ## Preprints
-
-{% include publication.html
-   title="Deep Generative Model for Human Mobility Behavior"
-   authors="<strong>Ye Hong</strong>, Yatao Zhang, Konrad Schindler, Martin Raubal"
-   description="Under Review, 2025"
-   paper="https://doi.org/10.48550/arXiv.2510.06473"
-%}
-
-{% include publication.html
-   title="UrbanFusion: Stochastic Multimodal Fusion for Contrastive Learning of Robust Spatial Representations"
-   authors="D. J. Mühlematter, L. Che, <strong>Ye Hong</strong>, Martin Raubal, Nina Wiedemann"
-   description="Under Review, 2025"
-   paper="https://doi.org/10.48550/arXiv.2510.13774"
-%}
 
 {% include publication.html
    title="Interpreting Deep Learning Models for Traffic Forecast: A Case Study of UNet"
